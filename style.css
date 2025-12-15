@@ -1,0 +1,120 @@
+* {
+            box-sizing: border-box;
+        }
+        body {
+            max-width: 1400px;
+            margin: 40px auto;
+            padding:0px 30px;
+            background-color: rgb(255, 175, 140);
+            background: url(images/bg.png);
+        }
+        
+        
+        .banner {
+            width: 100%;
+            background-color: rgb(247, 139, 93);
+            color: rgb(255, 255, 255);
+            font-family: "Lexend";
+            font-size: 40px;
+            padding: 40px 30px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin: center;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            text-shadow: 4px 4px 5px black;
+
+        }
+        .logo {
+            display: table-cell;
+            text-shadow: 4px 4px 3px black;
+            
+        }
+        .logo img {
+            width: 170px;
+            vertical-align: right;
+            filter: drop-shadow(4px 4px 5px black)
+        }
+        .menu {
+        font-family:Robo
+        }
+        .menu ul {
+        
+        overflow: hidden;
+        list-style-type: none;
+        background-color: rgb(247, 117, 61);
+        margin: 0;
+        padding: 0;
+        }
+        .menu li{
+            font-family: "Lexend";
+            width: 220px;
+            float: left;
+            font-size: 20px;
+
+        }
+        .menu li a {
+            display: block;
+            text-decoration: none;
+            background-color: rgb(247, 117, 61);
+            padding: 12px 20px;
+            color: white;
+            transition: background-color 0.4s ease-in-out;
+        }
+        .menu a:hover {
+            background-color: rgb(243, 93, 28);
+        }
+        .main {
+            padding: 10px;
+            background-color: rgb(255, 175, 140);
+            display: flex;
+            align-items: center;
+            gap:20px;
+            font-family: "Lexend";
+            font-size: 20px;
+        }
+        #asResim {
+            width: 33%;
+            padding: 10px;
+            border-radius: 15px;
+            filter: drop-shadow(0 0 5px black);
+        }
+        .footer {
+            font-family: "Lexend";
+            background-color: rgb(247, 139, 93);
+            text-align: center;
+            color:ghostwhite;
+            padding: 15px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            display: block;
+        }
+        .hikayeimg {
+            width: 33%;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            filter: drop-shadow(4px 4px 5px black)
+        }
+        .tarihimg {
+            width: 20%;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            filter: drop-shadow(4px 4px 5px black);
+        }
+    
+        .tarihimg2 {
+            width: 30%;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            filter: drop-shadow(4px 4px 5px black);
+
+        }
+        .tarih2 {
+            font-family: "Lexend";
+            font-size: 20px;
+        }
+      
