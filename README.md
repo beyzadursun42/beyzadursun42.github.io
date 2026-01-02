@@ -9,5 +9,5 @@ Bu Web sitesi TÜBİTAK 2204-A Lise Öğrencileri Araştırma Projeleri Yarışm
 Yürüttüğümüz proje doğrultusunda hazırladığımız Dede Korkut Hikayelesini ve diğer Dede Korkut ile alakalı içerikleri insanlara ulaştırmak. 
 
 # Live Demo
-Web Sİtesi Netlify platformundan yayımlanmıştır.
+Web Sitesi Netlify platformundan yayımlanmıştır.
 https://kulturelbirdeger.netlify.app/ 
